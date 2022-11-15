@@ -18,9 +18,9 @@ public class ex2 {
 
 		driver.get("https://rakuplus.jp/");
 		WebElement rogId = driver.findElement(By.cssSelector("#user_login"));
-		rogId.sendKeys("yuma.ono@rakus-partners.co.jp");
+		rogId.sendKeys("○◯××");
 		WebElement rogPass = driver.findElement(By.cssSelector("#user_pass"));
-		rogPass.sendKeys("yuma.ono@rakus-partners.co.jp");
+		rogPass.sendKeys("○◯××");
 		WebElement rogin = driver.findElement(By.cssSelector("#wp-submit"));
 		rogin.click();
 
